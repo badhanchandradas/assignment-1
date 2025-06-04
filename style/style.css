@@ -5,6 +5,11 @@
     font-style: normal;
   }
 
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
   /* share style */
   .btn-primary{
     font-family: "Azeret Mono", monospace;
@@ -20,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 38px 150px;
+    margin: 30px 150px;
 }
 
 nav ul {
@@ -42,6 +47,7 @@ nav li a{
 /* hero style */
 .hero{
   background: url(/assets/Hero-bg.png);
+  border: 2px dashed rgb(108, 104, 104);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -49,6 +55,7 @@ nav li a{
   align-items: center;
   text-align: center;
   height: 700px;
+
   
 }
 
@@ -90,13 +97,13 @@ font-weight: 600;
 .about-me{
 display: flex;
 justify-content: center;
-
+padding: 80px 97px;
 
     
 }
 .about-me-text{
   width: 1000px;
-  margin: 74px 221px;
+  margin: 10px 221px;
   
 }
 
@@ -137,6 +144,10 @@ line-height: 36px;
 letter-spacing: 0%;
 text-align: left;
 }
+
+.btn-margin{
+  margin: 10px 0;
+}
 /* share style in about */
 .btn{
   box-sizing: border-box;
@@ -158,6 +169,7 @@ padding: 12px 20px 12px 20px;
 .video{
   display: flex;
   align-items: center;
+  margin-top: 20px;
 }
 /* footer */
 .footer{
