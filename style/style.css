@@ -97,13 +97,14 @@ font-weight: 600;
 .about-me{
 display: flex;
 justify-content: center;
-padding: 80px 97px;
-
+padding: 0px 97px;
     
 }
 .about-me-text{
   width: 1000px;
-  margin: 10px 221px;
+  margin-left:221px;
+  margin-right:221px;
+  margin-top: 70px;
   
 }
 
@@ -147,6 +148,7 @@ text-align: left;
 
 .btn-margin{
   margin: 10px 0;
+  border-radius: 5px;
 }
 /* share style in about */
 .btn{
@@ -170,6 +172,7 @@ padding: 12px 20px 12px 20px;
   display: flex;
   align-items: center;
   margin-top: 20px;
+  border-radius: 20px;
 }
 /* footer */
 .footer{
@@ -217,4 +220,30 @@ font-weight: 700;
 line-height: 36px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+
+/* skill style */
+.skill-section{
+  width: 1000px;
+  margin: 40px auto;
+}
+
+
+.skill-about{
+  text-align: center;
+}
+
+.skill-container{
+  display: flex;
+}
+
+.card-box{
+  padding: 10px;
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.card-box>img, h3, p{
+  margin-bottom: 20px;
 }
